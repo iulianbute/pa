@@ -1,0 +1,19 @@
+    {"Studenti":[
+        {"Id":1,"Nume":"S1","eMail":"@1"},
+        {"Id":2,"Nume":"S2","eMail":"@2"},
+        {"Id":3,"Nume":"S3","eMail":"@3"},
+        {"Id":4,"Nume":"S4","eMail":"@4"}
+    ],"Proiecte":[
+        {"Id":1,"Nume":"P1","Capacitate":2,"Descriere":"-doP1-"},
+        {"Id":2,"Nume":"P2","Capacitate":1,"Descriere":"-doP2-"},
+        {"Id":3,"Nume":"P3","Capacitate":1,"Descriere":"-doP3-"}
+    ],"Preferintele studentilor":[
+        {"Student":1,"Proiecte preferate":[{"P":1},{"P":2},{"P":3}]},
+        {"Student":2,"Proiecte preferate":[{"P":1},{"P":3},{"P":2}]},
+        {"Student":3,"Proiecte preferate":[{"P":1}]},
+        {"Student":4,"Proiecte preferate":[{"P":3},{"P":2},{"P":1}]}
+    ],"Preferintele profesorilor":[
+        {"Proiect":1,"Studenti preferati":[{"S":3},{"S":1},{"S":2},{"S":4}]},
+        {"Proiect":2,"Studenti preferati":[{"S":1},{"S":2},{"S":3},{"S":4}]},
+        {"Proiect":3,"Studenti preferati":[{"S":4},{"S":3},{"S":1},{"S":2}]}
+    ]}
